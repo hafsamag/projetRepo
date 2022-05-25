@@ -17,6 +17,13 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage ('stage 4') {
+            steps {
+               sh 'ls'
+               }
+        }
+        
+        
     }
     
  }
